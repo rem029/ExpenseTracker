@@ -1,19 +1,19 @@
 .budget-view-anim {
-	animation: FadeInBudgetView 0.5s ease;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	margin: 0;
-	padding: 0;
-	width: 100vw;
+  animation: FadeInBudgetView 0.5s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  width: 95vw;
 }
 
 @keyframes FadeInBudgetView {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

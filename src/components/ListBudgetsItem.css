@@ -1,250 +1,250 @@
 .colors {
-	color: #457b9d;
-	color: #1d3557;
-	color: #a8dadc;
-	color: #f1faee;
-	color: #e63946;
-	color: #e0e0e0;
+  color: #457b9d;
+  color: #1d3557;
+  color: #a8dadc;
+  color: #f1faee;
+  color: #e63946;
+  color: #e0e0e0;
 }
 
 .list-budget-item {
-	width: 325px;
-	height: 60px;
-	margin: 2px 0;
-	padding: 10px;
+  width: 325px;
+  height: 60px;
+  margin: 2px 0;
+  padding: 10px;
 
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 
-	font-family: "Roboto";
-	box-shadow: 0px 5px 2px 1px #aaaaaa4f;
+  font-family: 'Roboto';
+  box-shadow: 0px 5px 2px 1px #aaaaaa4f;
 }
 
 /****************************************************/
 /* INCOME TYPE */
 
 .list-budget-item-income {
-	background-color: white;
-	border-left: 5px solid #457b9d;
-	transition: all 0.2s linear;
+  background-color: white;
+  border-left: 5px solid #457b9d;
+  transition: all 0.2s linear;
 }
 
 .list-budget-item-income-active {
-	border: 5px solid #457b9d;
+  border: 5px solid #457b9d;
 }
 
 .list-budget-item-income span {
-	margin: 2px;
-	width: 60%;
-	margin-right: 10px;
+  margin: 2px;
+  width: 60%;
+  margin-right: 10px;
 }
 
 .list-budget-item-income span input,
 textarea {
-	margin: 2px;
-	outline: none;
-	border: 0;
-	width: 100%;
-	border: 2px solid #457b9d;
-	transition: all 0.3s linear;
+  margin: 2px;
+  outline: none;
+  border: 0;
+  width: 100%;
+  border: 2px solid #457b9d;
+  transition: all 0.3s linear;
 }
 
 .list-budget-item-income span input {
-	color: #457b9d;
-	font-size: 18px;
-	font-family: "Oswald";
+  color: #457b9d;
+  font-size: 18px;
+  font-family: 'Oswald';
 }
 
 .list-budget-item-income span input:disabled {
-	color: #457b9d;
-	font-family: "Oswald";
-	background-color: transparent;
-	border: 0;
+  color: #457b9d;
+  font-family: 'Oswald';
+  background-color: transparent;
+  border: 0;
 }
 
 .list-budget-item-income span textarea:disabled {
-	resize: none;
-	overflow: hidden;
-	font-size: 16px;
-	font-family: "Roboto";
+  resize: none;
+  overflow: hidden;
+  font-size: 16px;
+  font-family: 'Roboto';
 }
 
 .list-budget-item-income > input {
-	margin: 2px;
-	outline: none;
-	border: 0;
-	text-align: left;
-	width: 25%;
+  margin: 2px;
+  outline: none;
+  border: 0;
+  text-align: left;
+  width: 25%;
 
-	color: #457b9d;
-	font-size: 16px;
-	font-family: "Oswald";
-	border: 2px solid #457b9d;
-	transition: all 0.3s linear;
+  color: #457b9d;
+  font-size: 16px;
+  font-family: 'Oswald';
+  border: 2px solid #457b9d;
+  transition: all 0.3s linear;
 }
 
 .list-budget-item-income > input:disabled {
-	margin: 2px;
-	background-color: transparent;
-	outline: none;
-	border: 0;
-	text-align: center;
-	width: 25%;
+  margin: 2px;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+  text-align: center;
+  width: 25%;
 
-	color: #457b9d;
-	font-family: "Oswald";
+  color: #457b9d;
+  font-family: 'Oswald';
 }
 
 /****************************************************/
 /* EXPENSE TYPE */
 
 .list-budget-item-expense {
-	background-color: white;
-	border-left: 5px solid #e63946;
-	transition: all 0.2s linear;
+  background-color: white;
+  border-left: 5px solid #e63946;
+  transition: all 0.2s linear;
 }
 
 .list-budget-item-expense-active {
-	border: 5px solid #457b9d;
+  border: 5px solid #457b9d;
 }
 
 .list-budget-item-expense span {
-	margin: 2px;
-	width: 60%;
-	margin-right: 10px;
+  margin: 2px;
+  width: 60%;
+  margin-right: 10px;
 }
 
 .list-budget-item-expense span input,
 textarea {
-	margin: 2px;
-	outline: none;
-	border: 0;
-	width: 100%;
-	border: 2px solid #e63946;
-	transition: all 0.3s linear;
+  margin: 2px;
+  outline: none;
+  border: 0;
+  width: 100%;
+  border: 2px solid #e63946;
+  transition: all 0.3s linear;
 }
 
 .list-budget-item-expense span input {
-	color: #e63946;
-	font-size: 18px;
-	font-family: "Oswald";
+  color: #e63946;
+  font-size: 18px;
+  font-family: 'Oswald';
 }
 
 .list-budget-item-expense span input:disabled {
-	color: #e63946;
-	font-family: "Oswald";
-	background-color: transparent;
-	border: 0;
+  color: #e63946;
+  font-family: 'Oswald';
+  background-color: transparent;
+  border: 0;
 }
 
 .list-budget-item-expense span textarea:disabled {
-	resize: none;
-	overflow: hidden;
-	font-size: 12px;
-	font-family: "Roboto";
+  resize: none;
+  overflow: hidden;
+  font-size: 12px;
+  font-family: 'Roboto';
 }
 
 .list-budget-item-expense > input {
-	margin: 2px;
-	outline: none;
-	border: 0;
-	text-align: left;
-	width: 25%;
+  margin: 2px;
+  outline: none;
+  border: 0;
+  text-align: left;
+  width: 25%;
 
-	color: #e63946;
-	font-size: 16px;
-	font-family: "Oswald";
-	border: 2px solid #e63946;
-	transition: all 0.3s linear;
+  color: #e63946;
+  font-size: 16px;
+  font-family: 'Oswald';
+  border: 2px solid #e63946;
+  transition: all 0.3s linear;
 }
 
 .list-budget-item-expense > input:disabled {
-	margin: 2px;
-	background-color: transparent;
-	outline: none;
-	border: 0;
-	text-align: center;
-	width: 25%;
+  margin: 2px;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+  text-align: center;
+  width: 25%;
 
-	color: #e63946;
-	font-family: "Oswald";
+  color: #e63946;
+  font-family: 'Oswald';
 }
 
 /****************************************************/
 
 .list-budget-item-btn-options-container {
-	position: relative;
+  position: relative;
 }
 
 .list-budget-item-btn {
-	background-color: transparent;
-	outline: none;
-	border: 0;
-	margin: 0 20px;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+  margin: 0 20px;
 
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-	color: #457b9d;
-	font-size: 24px;
-	font-family: "Oswald";
-	transition: all 0.1s linear;
+  color: #457b9d;
+  font-size: 24px;
+  font-family: 'Oswald';
+  transition: all 0.1s linear;
 }
 
 .list-budget-item-btn-active {
-	transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .list-budget-item-btn-options {
-	position: absolute;
-	background-color: #fff;
-	border-radius: 5px;
-	border: 2px solid #457b9d;
-	top: 75%;
-	left: -15%;
-	width: 80px;
-	z-index: 50;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	animation: MoveIn 0.1s linear;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 2px solid #457b9d;
+  top: 75%;
+  left: -15%;
+  width: 80px;
+  z-index: 50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  animation: MoveIn 0.1s linear;
 }
 
 .list-budget-item-btn-options button {
-	background-color: transparent;
-	outline: none;
-	border: 0;
-	margin: 5px;
-	width: 100%;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+  margin: 5px;
+  width: 100%;
 
-	color: #457b9d;
-	font-family: "Oswald";
+  color: #457b9d;
+  font-family: 'Oswald';
 }
 
 .list-budget-item-btn-options button:active {
-	background-color: #457b9d;
-	color: #fff;
+  background-color: #457b9d;
+  color: #fff;
 }
 
 .list-budget-item-btn-options div {
-	width: 30%;
-	height: 1px;
-	background-color: #457b9d;
+  width: 30%;
+  height: 1px;
+  background-color: #457b9d;
 }
 
 .list-budget-item-btn-options button > span {
-	margin: 5px;
+  margin: 5px;
 }
 
 @keyframes MoveIn {
-	0% {
-		opacity: 0;
-		transform: translateY(-10px);
-	}
-	100% {
-		opacity: 1;
-	}
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+  }
 }
