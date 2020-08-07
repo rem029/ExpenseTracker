@@ -6,19 +6,20 @@ import './UserInfo.css';
 
 import CustomSpinner from '../components/CustomSpinner.js';
 
-export default function UserInfo(props) {
-  const [uName, setUName] = useState(props.userInfo.username);
-  const [pWord, setPword] = useState(props.userInfo.password);
-  const [cpWord, setCPword] = useState(props.userInfo.password);
-  const [fName, setFName] = useState(props.userInfo.firstName);
-  const [lName, setLName] = useState(props.userInfo.lastName);
-  const [email, setEmail] = useState(props.userInfo.email);
+export default function UserInfo({ userInfo, userUpdate, Logout, isLoaded, loginStatus, loginMsg }) {
+  const { username, password, firstName, lastName, email: eMail } = userInfo;
+  const [uName, setUName] = useState(username);
+  const [pWord, setPword] = useState(password);
+  const [cpWord, setCPword] = useState(password);
+  const [fName, setFName] = useState(firstName);
+  const [lName, setLName] = useState(lastName);
+  const [email, setEmail] = useState(eMail);
 
   const [isDisabled, setIsDisabled] = useState(true);
 
   const userUpt = () => {
     if (!isDisabled) {
-      props.userUpdate({
+      userUpdate({
         username: uName,
         email: email,
         password: pWord,
@@ -40,10 +41,10 @@ export default function UserInfo(props) {
           className="user-info-btn"
           onClick={(e) => {
             e.preventDefault();
-            props.Logout();
+            Logout();
           }}
         >
-          {props.isLoaded ? 'Log out' : <CustomSpinner className="spinner spinner-style-login" />}
+          {isLoaded ? 'Log out' : <CustomSpinner className="spinner spinner-style-login" />}
         </button>
         <div className="user-info-field">
           <label>Username</label>
@@ -121,14 +122,14 @@ export default function UserInfo(props) {
         </div>
         <div>
           <button
-            className={props.isLoaded ? 'user-info-btn' : 'user-info-btn user-info-btn-disable'}
+            className={isLoaded ? 'user-info-btn' : 'user-info-btn user-info-btn-disable'}
             onClick={(e) => {
               e.preventDefault();
               userUpt();
               setIsDisabled(!isDisabled);
             }}
           >
-            {props.isLoaded ? (
+            {isLoaded ? (
               isDisabled ? (
                 'Edit Profile'
               ) : (
@@ -141,12 +142,12 @@ export default function UserInfo(props) {
           <p
             className="user-info-msg"
             style={
-              props.loginStatus
+              loginStatus
                 ? { color: '#457B9D', fontSize: '12px', fontWeight: '300' }
                 : { color: '#E63946', fontSize: '12px', fontWeight: '300' }
             }
           >
-            {props.loginMsg}
+            {loginMsg}
           </p>
         </div>
       </div>
