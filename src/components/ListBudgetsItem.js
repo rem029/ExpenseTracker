@@ -64,7 +64,7 @@ function ListBudgetsItem(props) {
 						}
 					}}
 				>
-					{isDisabled ? <FontAwesomeIcon icon={faAngleDown} /> : "EDIT MODE"}
+					{isDisabled ? <FontAwesomeIcon icon={faAngleDown} /> : <FontAwesomeIcon icon={faEdit} />}
 				</button>
 				{showOptions && (
 					<div className="list-budget-item-btn-options">
