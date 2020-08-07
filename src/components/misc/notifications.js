@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-import './Notifications.css';
+import './notifications.css';
 
 export default function Notifications(props) {
   const delayTimeOut = 10000;

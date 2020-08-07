@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faLock, faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
 
-import './UserLogin.css';
+import './user.login.css';
 
-import CustomSpinner from '../components/CustomSpinner.js';
+import CustomSpinner from '../misc/custom.spinner.js';
 
 function UserLogin(props) {
   const [uName, setUName] = useState('');

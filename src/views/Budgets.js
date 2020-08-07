@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
-import './Budget.css';
+import './budgets.css';
 
-import AddBudgetsButton from '../components/AddBudgetsButton.js';
-import ListBudgets from '../components/ListBudgets.js';
-import BudgetsDashboard from '../components/BudgetsDashboard.js';
+import AddBudgetsButton from '../components/budgets/add.budgets/add.budgets.button';
+import ListBudgets from '../components/budgets/list.budgets/list.budgets';
+import BudgetsDashboard from '../components/budgets/budgets.dashboard/budgets.dashboard';
 
 export default function Budgets(props) {
   const [addMode, setAddMode] = useState(false);

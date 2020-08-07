@@ -1,8 +1,8 @@
 import React from 'react';
 
-import './Header.css';
+import './header.css';
 
-import ViewController from '../views/ViewController.js';
+import ViewController from '../../views/view.controller.js';
 
 function Header(props) {
   return (

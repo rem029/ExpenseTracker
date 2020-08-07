@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 
-import CustomSpinner from '../components/CustomSpinner.js';
+import CustomSpinner from '../../misc/custom.spinner';
 
-import './BudgetsDashboard.css';
+import './budgets.dashboard.css';
 
 function BudgetsDashboard(props) {
   const [budgetIncomeTotal, setBudgetIncomeTotal] = useState(0);

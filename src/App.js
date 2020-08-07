@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { useCookies } from 'react-cookie';
 import './App.css';
 
-import Notifications from './components/Notifications.js';
-import Header from './components/Header.js';
-import User from './views/User.js';
-import Budgets from './views/Budgets.js';
+import Notifications from './components/misc/notifications';
+import Header from './components/header/header';
+import User from './views/user';
+import Budgets from './views/budgets';
 
 import apiUsers from './api/user';
 import apiBudgets from './api/budgets';

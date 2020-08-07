@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import './AddBudgetsForm.css';
+import './add.budgets.form.css';
 
 export default function AddBudgetsForm(props) {
   const [title, setTitle] = useState('');

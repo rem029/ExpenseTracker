@@ -1,8 +1,8 @@
 import React from 'react';
 
-import './AddBudgetsButton.css';
+import './add.budgets.button.css';
 
-import AddBudgetsForm from './AddBudgetsForm.js';
+import AddBudgetsForm from './add.budgets.form.js';
 
 export default function AddBudget(props) {
   return (

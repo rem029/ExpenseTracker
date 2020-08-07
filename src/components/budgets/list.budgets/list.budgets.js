@@ -1,9 +1,9 @@
 import React from 'react';
 
-import './ListBudgets.css';
+import './list.budgets.css';
 
-import ListBudgetsItem from '../components/ListBudgetsItem.js';
-import CustomSpinner from '../components/CustomSpinner.js';
+import ListBudgetsItem from './list.budgets.item';
+import CustomSpinner from '../../misc/custom.spinner';
 
 export default function ListBudgets(props) {
   return (

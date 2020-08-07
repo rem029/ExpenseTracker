@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown, faEdit, faTrash } from '@fortawesome/free-solid-svg-icons';
 
-import './ListBudgetsItem.css';
+import './list.budgets.item.css';
 
 function ListBudgetsItem(props) {
   const [showOptions, setShowOptions] = useState(false);

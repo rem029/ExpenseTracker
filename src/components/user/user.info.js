@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAddressCard } from '@fortawesome/free-solid-svg-icons';
 
-import './UserInfo.css';
+import './user.info.css';
 
-import CustomSpinner from '../components/CustomSpinner.js';
+import CustomSpinner from '../misc/custom.spinner.js';
 
 export default function UserInfo({ userInfo, userUpdate, Logout, isLoaded, loginStatus, loginMsg }) {
   const { username, password, firstName, lastName, email: eMail } = userInfo;

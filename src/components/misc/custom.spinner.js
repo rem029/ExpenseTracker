@@ -1,5 +1,5 @@
 import React from 'react';
-import './CustomSpinner.css';
+import './custom.spinner.css';
 
 export default function CustomSpinner(props) {
   // const [style, setStyle] = useState({});

@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faMoneyBill } from '@fortawesome/free-solid-svg-icons';
 
-import './ViewController.css';
+import './view.controller.css';
 
 export default function ViewController(props) {
   return (

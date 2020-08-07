@@ -1,9 +1,9 @@
 import React from 'react';
 
-import UserInfo from '../components/UserInfo';
-import UserLogin from '../components/UserLogin';
+import UserInfo from '../components/user/user.info';
+import UserLogin from '../components/user/user.login';
 
-import './User.css';
+import './user.css';
 
 export default function User(props) {
   return (
