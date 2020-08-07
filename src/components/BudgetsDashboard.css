@@ -1,0 +1,126 @@
+.colors {
+	color: #457b9d;
+	color: #1d3557;
+	color: #a8dadc;
+	color: #f1faee;
+	color: #e63946;
+	color: #e0e0e0;
+}
+
+.budget-dashboard-container {
+	width: 85vw;
+	padding: 10px;
+	margin: 10px 0;
+
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-direction: column;
+
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px 5px #aaaaaa4f;
+	background-image: linear-gradient(#385f94, #1d3557);
+}
+
+.budget-dashboard-container h2 {
+	color: #a8dadc;
+	font-size: 24px;
+	font-family: "Oswald";
+	font-weight: 300;
+	margin: 0;
+	line-height: 1px;
+}
+
+.budget-dashboard-container h2,
+p {
+	padding: 10px;
+}
+
+.budget-dashboard-container h2 > button {
+	background-color: transparent;
+	border: 0;
+	outline: none;
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+	font-family: "Oswald";
+	font-weight: 500;
+	color: #fff;
+	line-height: 1;
+	border-bottom: 2px solid #fff;
+}
+
+.budget-dashboard-container p {
+	color: #a8dadc;
+	margin: 0;
+}
+
+.budget-dashboard-container p > button {
+	background-color: transparent;
+	border: 0;
+	outline: none;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	color: #a8dadc;
+	line-height: 1;
+	border-bottom: 2px solid #a8dadc;
+}
+
+.budget-dashboard-box-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+
+	margin: 20px 0;
+}
+
+.budget-dashboard-box {
+	flex-basis: 200px;
+	background-color: white;
+	box-shadow: 0px 5px 2px 1px #aaaaaa4f;
+
+	margin: 0 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	font-family: "Oswald";
+	font-weight: 300;
+}
+
+.budget-dashboard-box-income {
+	border-left: 5px solid #457b9d;
+}
+
+.budget-dashboard-box-expense {
+	border-left: 5px solid #e63946;
+}
+
+.budget-dashboard-box-income h3 {
+	color: #457b9d;
+}
+
+.budget-dashboard-box-expense h3 {
+	color: #e63946;
+}
+
+.budget-dashboard-box-balance {
+	border-left: 5px solid #459d80;
+}
+
+.budget-dashboard-box-balance h3 {
+	color: #459d80;
+}
+
+.budget-dashboard-box h3 {
+	line-height: 1;
+	margin: 0;
+}
+
+.budget-dashboard-box p {
+	line-height: 1;
+	margin: 10px 0;
+}

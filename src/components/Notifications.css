@@ -1,0 +1,64 @@
+.colors {
+	color: #457b9d;
+	color: #1d3557;
+	color: #a8dadc;
+	color: #f1faee;
+	color: #e63946;
+	color: #e0e0e0;
+}
+
+.notifications {
+	width: 100%;
+	height: 60px;
+	margin-bottom: 25px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: row;
+
+	background-color: #e63946;
+	animation: animNotify 1s linear;
+}
+
+.notifications-container {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-direction: column;
+	height: 100%;
+}
+
+.notifications-container button {
+	padding: 5px;
+	outline: none;
+	border: 0;
+	background-color: transparent;
+	color: white;
+}
+
+.notifications-container-msg {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-direction: column;
+	width: 100%;
+}
+
+.notifications-container-msg p {
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+	font-family: "Roboto";
+	font-size: 12px;
+	text-align: center;
+	width: 100%;
+}
+
+@keyframes animNotify {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

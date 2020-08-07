@@ -1,0 +1,92 @@
+.colors {
+	color: #457b9d;
+	color: #1d3557;
+	color: #a8dadc;
+	color: #f1faee;
+	color: #e63946;
+	color: #e0e0e0;
+}
+
+/* FLOATING ADD BUTTON */
+/* ************************* */
+.budget-new-container {
+	position: fixed;
+	bottom: 2%;
+	right: 45%;
+}
+
+.budget-new-container-btn {
+	outline: none;
+	border: 0;
+	position: relative;
+
+	border-radius: 50%;
+	width: 65px;
+	height: 65px;
+	background-color: #1d3557;
+	color: white;
+
+	font-family: "Roboto";
+	font-weight: 300;
+	font-size: 36px;
+	text-align: center;
+	line-height: 1;
+
+	box-shadow: 2px 5px 5px 2px #1d355752;
+	transition: all 0.1s ease-in-out;
+}
+
+.budget-new-container-btn:active {
+	transform: translateY(5px);
+	box-shadow: 2px 2px 2px 2px #1d3557;
+}
+
+.budget-new-container-btn:after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+
+	background-color: #1d3557;
+	opacity: 0.3;
+	transition: all 0.2s ease-in-out;
+}
+
+.budget-new-container-btn:active::after {
+	transform: scale(3);
+	opacity: 0;
+}
+
+/* ************************* */
+
+.budget-new-form-bg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 50;
+
+	width: 100%;
+	height: 100%;
+
+	animation: BGFadeIn 0.5s ease;
+	animation-fill-mode: forwards;
+}
+
+@keyframes FrmMoveIn {
+	0% {
+		opacity: 0;
+		transform: translateY(500px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}

@@ -1,0 +1,18 @@
+.user-view-anim {
+	animation: FadeInUserView 0.5s ease;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+}
+
+@keyframes FadeInUserView {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

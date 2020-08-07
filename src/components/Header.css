@@ -1,0 +1,52 @@
+.colors {
+	color: #457b9d;
+	color: #1d3557;
+	color: #a8dadc;
+	color: #f1faee;
+	color: #e63946;
+	color: #e0e0e0;
+}
+
+.header {
+	background-color: #1d3557;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	box-shadow: 2px 10px 2px 5px #aaaaaa4f;
+	z-index: 50;
+	padding-top: 10px;
+}
+
+.header-primary {
+	height: 100%;
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: "Oswald";
+	color: #f1faee;
+}
+
+.header-primary h1 {
+	text-align: center;
+	font-size: 24px;
+	font-weight: 500;
+	margin: 0;
+}
+
+.header-primary p {
+	font-family: "Roboto";
+	text-align: center;
+	font-size: 16px;
+	font-weight: 100;
+	margin: 0;
+}
+
+.header-primary a {
+	text-decoration: none;
+	font-weight: 500;
+	color: #a8dadc;
+}
