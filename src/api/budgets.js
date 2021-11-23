@@ -5,8 +5,7 @@ const apiBudgets = {
   port: 5000,
   tmpBudgetData: [],
   url: function () {
-    // return this.localIP + ":" + this.port + "/api/budgets";
-    // return this.localURL;
+    // if (process.env.NODE_ENV === 'development') return this.localURL;
     return this.Url;
   },
   //ADD BUDGET

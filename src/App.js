@@ -4,8 +4,8 @@ import './App.css';
 
 import Notifications from './components/misc/notifications';
 import Header from './components/header/header';
-import User from './views/user';
-import Budgets from './views/budgets';
+import User from './views/User';
+import Budgets from './views/Budgets';
 
 import apiUsers from './api/user';
 import apiBudgets from './api/budgets';

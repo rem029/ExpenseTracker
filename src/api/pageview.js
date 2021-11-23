@@ -4,8 +4,7 @@ const apiPageViews = {
   Url: 'https://infinite-sea-11156.herokuapp.com/api/pageviews',
   port: 5000,
   url: function () {
-    // return this.localIP + ":" + this.port + "/api/pageviews";
-    // return this.localURL;
+    // if (process.env.NODE_ENV === 'development') return this.localURL;
     return this.Url;
   },
   testUrl: 'http://localhost:5000/testglobal',

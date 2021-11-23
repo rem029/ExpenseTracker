@@ -1,6 +1,5 @@
 {
-  "name": "ExpenseTrackerClient",
-  "homepage": "https://rem029.github.io/ExpenseTracker/",
+  "name": "XT Client",
   "version": "0.0.1",
   "description": "Expense Tracker FrontEnd",
   "private": true,

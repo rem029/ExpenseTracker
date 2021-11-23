@@ -3,7 +3,7 @@ import React from 'react';
 import UserInfo from '../components/user/user.info';
 import UserLogin from '../components/user/user.login';
 
-import './user.css';
+import './User.css';
 
 export default function User(props) {
   return (
